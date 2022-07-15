@@ -39,7 +39,7 @@
     "rollup-plugin-terser": "^7.0.2",
     "routve": "^4.0.0",
     "sirv-cli": "^1.0.11",
-    "svelte": "^3.35.0",
+    "svelte": "^3.49.0",
     "svelte-i18n": "^3.3.6",
     "svelte-preprocess": "^4.6.9",
     "tailwindcss": "^1.9.5"
