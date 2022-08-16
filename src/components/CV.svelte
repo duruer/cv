@@ -60,7 +60,7 @@
             </svg>
           </li>
           <li class="flex items-center align-right">
-            <span class="mr-4 flex-1">www.ahmetduruer.com</span>
+            <span class="mr-4 flex-1"><a href="https://duruer.dev" target="_blank">duruer.dev</a></span>
             <svg
               class="h-4 w-4 pb-px stroke-current"
               xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +77,7 @@
             </svg>
           </li>
           <li class="flex items-center">
-            <span class="mr-4 flex-1">hello@ahmetduruer.com</span>
+            <span class="mr-4 flex-1"><a href="mailto:ahmet@duruer.dev">ahmet@duruer.dev</a></span>
             <svg
               class="h-4 w-4 pb-px stroke-current"
               xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +96,7 @@
             </svg>
           </li>
           <li class="flex items-center">
-            <span class="mr-4 flex-1">linkedin.com/in/ahmet-enes-duruer</span>
+            <span class="mr-4 flex-1"><a href="https://linkedin.com/in/ahmet-enes-duruer" target="_blank">linkedin.com/in/ahmet-enes-duruer</a></span>
             <svg
               class="h-4 w-4 pb-px fill-current"
               xmlns="http://www.w3.org/2000/svg"
@@ -217,6 +217,34 @@
           <section class="mb-4.5 break-inside-avoid">
             <header>
               <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+                {$_('work-experience.iconecwave.title')}
+              </h3>
+              <p class="leading-normal text-md text-gray-650">
+                {$_('work-experience.iconecwave.date')} | {$_('work-experience.iconecwave.profession')}
+              </p>
+            </header>
+            <p class="mt-2.1 text-md text-gray-700 leading-normal">
+              {$_('work-experience.iconecwave.description')}
+            </p>
+          </section>
+
+          <section class="mb-4.5 break-inside-avoid">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+                {$_('work-experience.kodgemisi.title')}
+              </h3>
+              <p class="leading-normal text-md text-gray-650">
+                {$_('work-experience.kodgemisi.date')} | {$_('work-experience.kodgemisi.profession')}
+              </p>
+            </header>
+            <p class="mt-2.1 text-md text-gray-700 leading-normal">
+              {$_('work-experience.kodgemisi.description')}
+            </p>
+          </section>
+
+          <section class="mb-4.5 break-inside-avoid">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
                 {$_('work-experience.general-mobile.title')}
               </h3>
               <p class="leading-normal text-md text-gray-650">
@@ -231,7 +259,11 @@
         </div>
       </section>
 
-      <hr class="mt-8" />
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
 
       <section class="mt-8 first:mt-0">
 
@@ -241,6 +273,34 @@
             {$_('title.references')}
           </h2>
         </div>
+
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              {$_("references.iconecwave.title")}
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              {$_("references.iconecwave.date")} | {$_("references.iconecwave.things")}
+            </p>
+          </header>
+          <p class="mt-2.1 text-md text-gray-700 leading-normal">
+            {$_("references.iconecwave.description")}
+          </p>
+        </section>
+
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              {$_("references.kodgemisi.title")}
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              {$_("references.kodgemisi.date")} | {$_("references.kodgemisi.things")}
+            </p>
+          </header>
+          <p class="mt-2.1 text-md text-gray-700 leading-normal">
+            {$_("references.kodgemisi.description")}
+          </p>
+        </section>
 
         <section class="mb-4.5 break-inside-avoid">
           <header>
@@ -337,7 +397,23 @@
         </header>
       </section>
 
-      <hr class="mt-8" />
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  <!-- Page -->
+  <div
+    class="p-6 mx-auto page max-w-a4 md:max-w-a4 h-a4 xsm:p-8 sm:p-9 md:p-16"
+  >
+
+<!--    &lt;!&ndash; Column &ndash;&gt;-->
+<!--    <div-->
+<!--      class="md:col-count-2 print:col-count-2 col-gap-md md:h-a4-col-->
+<!--      print:h-a4-col col-fill-auto"-->
+<!--    >-->
 
       <section class="mt-8 first:mt-0">
 
@@ -371,12 +447,6 @@
                   class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
                 >
-                  Java
-                </li>
-                <li
-                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
-                  bg-gray-200"
-                >
                   OOP
                 </li>
                 <li
@@ -396,6 +466,59 @@
                   bg-gray-200"
                 >
                   Server
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="mb-4.5 break-inside-avoid">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+                Java
+              </h3>
+              <p class="leading-normal text-md text-gray-650">
+                {$_('skills.middle-level')}
+              </p>
+            </header>
+            <div class="my-3.2 last:pb-1.5">
+              <ul
+                class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6"
+              >
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  Spring
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  Micronaut
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  Hibernate
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  Lombok
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  MapStruct
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  AWS SDK
                 </li>
               </ul>
             </div>
@@ -425,6 +548,18 @@
                   bg-gray-200"
                 >
                   Svelte 3
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  ReactJS
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  SvelteKit
                 </li>
                 <li
                   class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
@@ -479,6 +614,18 @@
                 >
                   MSSQL
                 </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  DynamoDB
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  PostgreSQL
+                </li>
               </ul>
             </div>
           </section>
@@ -513,6 +660,12 @@
                   bg-gray-200"
                 >
                   DevOps
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  Docker
                 </li>
               </ul>
             </div>
@@ -609,7 +762,7 @@
 
       </section>
 
-    </div>
+<!--    </div>-->
     <!-- end Column -->
 
   </div>

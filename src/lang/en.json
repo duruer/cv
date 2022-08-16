@@ -1,7 +1,7 @@
 {
   "profession": "Software Developer",
   "country": "Turkey",
-  "about-me": "A highly focused software developer and entrepreneur from Turkey since 2011. In my daily life I create and work on websites, mobile applications and personal projects. I always develop myself in programming and interested to learn new technologies. Mainly, I am a back-end developer.",
+  "about-me": "A passionate and dynamic software developer from Turkey since 2011. In my daily life I create and work on websites, mobile applications and personal projects. I always develop myself in programming and interested to learn new technologies. Mainly, I am a back-end developer.",
   "title": {
     "about-me": "ABOUT ME",
     "education": "EDUCATION",
@@ -18,7 +18,7 @@
   "education": {
     "pecs-uni": {
       "title": "University Of Pécs - Hungary",
-      "time": "2019 – Present",
+      "time": "Sep 2019 – Jul 2022",
       "major": "Computer Science (BSc)"
     },
     "preparatory-course": {
@@ -38,6 +38,18 @@
     }
   },
   "work-experience": {
+    "iconecwave": {
+      "title": "iConec Wave (Istanbul)",
+      "date": "Feb 2022 – Present",
+      "profession": " Software Developer",
+      "description": "We are digitally modernizing the business of customers. Creating serverless apps with the Java programming language. AWS technologies are being used."
+    },
+    "kodgemisi": {
+      "title": "Kod Gemisi (Turkey)",
+      "date": "Oct 2021 – Jan 2022",
+      "profession": " Intern",
+      "description": "We were developing enterprise CRM web application. Kotlin, Micronaut, Hibernate and Docker technologies are used."
+    },
     "general-mobile": {
       "title": "General Mobile Inc. (Istanbul)",
       "date": "Nov 2017 – Aug 2018",
@@ -46,11 +58,23 @@
     }
   },
   "references": {
+    "iconecwave": {
+      "title": "iConec Wave - Royal Canin",
+      "date": "Since Feb 2022",
+      "things": "AWS, Spring, Java, Serverless, PostgreSQL",
+      "description": "Royal Canin is one of our customer. We provide solutions for distribution, veterinary clinic and customer order managements in US, France and Japan continents."
+    },
+    "kodgemisi": {
+      "title": "Kod Gemisi - Grispi",
+      "date": "Oct 2021 - Jan 2022",
+      "things": "Kotlin, Java, Micronaut, Hibernate, Docker, PostgreSQL",
+      "description": "We were developing a CRM application like Zendesk. It has support ticket operations and customer relation managements over e-mail, phone and web."
+    },
     "portfolio": {
-      "title": "Portfolio >> ahmetduruer.com",
+      "title": "Portfolio >> duruer.dev",
       "date": "Since 2020",
-      "things": "Svelte, Heroku, Travis CI",
-      "description": "My small portfolio website which I have created to introduce myself. It supports both Turkish and English languages. It has built in Svelte 3, Heroku, Travis CI, Bootstrap 4 and Routve."
+      "things": "SvelteKit, Netlify, Bootstrap 4",
+      "description": "My small serverless portfolio website which I have created to introduce myself. It supports both Turkish and English languages. It has built in Svelte 3, Netlify, Bootstrap 4 and SvelteKit."
     },
     "routve": {
       "title": "Routve",
