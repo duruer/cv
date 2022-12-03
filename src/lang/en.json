@@ -1,19 +1,25 @@
 {
-  "profession": "Software Developer",
+  "profession": "Java & Kotlin Software Engineer",
   "country": "Turkey",
-  "about-me": "A passionate and dynamic software developer from Turkey since 2011. In my daily life I create and work on websites, mobile applications and personal projects. I always develop myself in programming and interested to learn new technologies. Mainly, I am a back-end developer.",
+  "about-me": "An attentive and passionate Java/Kotlin back-end Software Engineer from Turkey with 3 years of professional work experience. I'm mainly focused on developing cloud serverless, highly scalable, containerized back-end applications with Spring, Micronaut, Quarkus and VertX technologies. <br/><br/> Moreover, I have developing experience in cloud with AWS and databases with DynamoDB, MariaDB, MySQL and SQLite. <br/><br/> During my professional experience, I contributed in development of websites, Android applications which are used by millions and in multi-national distributed projects. <br/> <br/> I'm passionate about learning new technologies, helping and sharing my knowledge with my team. Furthermore, I'm developing open-source projects in my free times.",
   "title": {
     "about-me": "ABOUT ME",
     "education": "EDUCATION",
-    "experience": "EXPERIENCE",
-    "references": "REFERENCES",
+    "experience": "WORK EXPERIENCES",
+    "references": "PROJECTS",
     "certificates": "CERTIFICATES",
     "skills": "SKILLS",
-    "other": "OTHER"
+    "other": "OTHER",
+    "hobbies": "HOBBIES",
+    "languages": "LANGUAGES"
   },
   "skills": {
     "middle-level": "Middle Level",
     "high-level": "High Level"
+  },
+  "language": {
+    "professional": "Professional Proficiency",
+    "native": "Native"
   },
   "education": {
     "pecs-uni": {
@@ -39,60 +45,75 @@
   },
   "work-experience": {
     "iconecwave": {
-      "title": "iConec Wave (Istanbul)",
+      "title": "iConec Wave (Istanbul/Fully Remote)",
       "date": "Feb 2022 – Present",
-      "profession": " Software Developer",
-      "description": "We are digitally modernizing the business of customers. Creating serverless apps with the Java programming language. AWS technologies are being used."
+      "profession": " Mid Java Software Engineer",
+      "technologies": "(Java/Kotlin/Spring/AWS)",
+      "description": "I'm developing web services, fixing bugs and improving the existing codebase in AWS for our famous customer Royal Canin company. From factory packaging till the end-user. By using the AWS SDK mainly Java, DynamoDB, S3 and Spring."
     },
     "kodgemisi": {
-      "title": "Kod Gemisi (Turkey)",
+      "title": "Kod Gemisi (Turkey/Fully Remote)",
       "date": "Oct 2021 – Jan 2022",
       "profession": " Intern",
-      "description": "We were developing enterprise CRM web application. Kotlin, Micronaut, Hibernate and Docker technologies are used."
+      "technologies": "(Kotlin/MicronAut/Hexagonal Architecture)",
+      "description": "During my internship, I was improving existing and adding new scenario tests to the project. Besides, I created web services and focused on fixing bugs."
     },
     "general-mobile": {
-      "title": "General Mobile Inc. (Istanbul)",
+      "title": "General Mobile Inc. (Istanbul/In Office)",
       "date": "Nov 2017 – Aug 2018",
-      "profession": " Android Developer",
-      "description": "During the work, we have been building and developing stock Android applications with 6 other team members. We used mainly Kotlin, Java and GitLab."
+      "profession": " Junior Android Developer",
+      "technologies": "(Kotlin/Java/Android/MVVM/MVC/MVP)",
+      "description": "I created <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gallery&hl=tr&gl=US' target='_blank'>GM Gallery GO</a> Android application. Moreover, I contributed in projects with my 6 other teammates, developing the following applications: <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.musicplayer&hl=tr&gl=US' target='_blank'>GM Music</a>, GM File Manager, <a href='https://play.google.com/store/apps/details?id=com.generalmobile.assistant&hl=tr&gl=US' target='_blank'>GM Assistant</a> and <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gmvoicerecorder&hl=tr&gl=US' target='_blank'>GM Voice Recorder</a> applications which are used by millions and are still available in Google Play."
     }
   },
   "references": {
     "iconecwave": {
       "title": "iConec Wave - Royal Canin",
       "date": "Since Feb 2022",
-      "things": "AWS, Spring, Java, Serverless, PostgreSQL",
-      "description": "Royal Canin is one of our customer. We provide solutions for distribution, veterinary clinic and customer order managements in US, France and Japan continents."
+      "things": "AWS, Spring, Java, Serverless, PostgreSQL, DynamoDB, S3",
+      "description": "Royal Canin is a famous French cat & dog food producer. I'm contributing to development of web services solutions for distribution, veterinary clinic and customer order managements in US, France and Japan continents."
+    },
+    "iconecwave-dxpathfinder": {
+      "title": "iConec Wave - DxPathFinder",
+      "date": "Since Feb 2022",
+      "things": "AWS, Java, Serverless, DynamoDB",
+      "description": "DxPathFinder is an online digital performance cockpit. I provide web service solutions for project needs also with helping improving business calculations."
     },
     "kodgemisi": {
-      "title": "Kod Gemisi - Grispi",
+      "title": "Kod Gemisi - Grispi >> <a href='https://grispi.com/' target='_blank'>https://grispi.com</a>",
       "date": "Oct 2021 - Jan 2022",
-      "things": "Kotlin, Java, Micronaut, Hibernate, Docker, PostgreSQL",
-      "description": "We were developing a CRM application like Zendesk. It has support ticket operations and customer relation managements over e-mail, phone and web."
+      "things": "Kotlin, Java, Micronaut, Hibernate, Docker, PostgreSQL, Hexagonal Architecture",
+      "description": "Grispi is a CRM application like Zendesk. I improved and added new scenario tests, optimized code base, and developed web services for groups and tickets in application."
+    },
+    "general-mobile": {
+      "title": "General Mobile - Android Applications",
+      "date": "Nov 2017 - Aug 2018",
+      "things": "Kotlin, Java, Dagger, Retrofit, Picasso, MVVM, MVP, MVC",
+      "description": "I developed Android applications which are still available and were used by millions in Google Play. The applications I contributed in development of new futures and bug fixes were <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gallery&hl=tr&gl=US' target='_blank'>GM Gallery GO</a>, <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.musicplayer&hl=tr&gl=US' target='_blank'>GM Music</a>, GM File Manager, <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gmvoicerecorder&hl=tr&gl=US' target='_blank'>GM Voice Recorder</a> and <a href='https://play.google.com/store/apps/details?id=com.generalmobile.assistant&hl=tr&gl=US' target='_blank'>GM Assistant</a>."
     },
     "portfolio": {
-      "title": "Portfolio >> duruer.dev",
+      "title": "Portfolio >> <a href='https://duruer.dev' target='_blank'>https://duruer.dev</a>",
       "date": "Since 2020",
       "things": "SvelteKit, Netlify, Bootstrap 4",
-      "description": "My small serverless portfolio website which I have created to introduce myself. It supports both Turkish and English languages. It has built in Svelte 3, Netlify, Bootstrap 4 and SvelteKit."
+      "description": "My small open-source serverless portfolio website which I have created to introduce myself. It supports both Turkish and English languages. I built with SvelteKit, Netlify, Bootstrap 4 and SvelteKit."
     },
     "routve": {
       "title": "Routve",
-      "date": "Since 2020",
+      "date": "2020",
       "things": "Svelte",
-      "description": "An advanced Svelte 3 router library which is based on Page.js library, which supports dynamic and static component import."
+      "description": "An open-source advanced Svelte 3 router library which is based on Page.js library, which supports dynamic and static component import."
     },
     "pano": {
       "title": "Pano",
       "date": "Since 2018",
-      "things": "Svelte, Vue, SASS, Kotlin, MySQL, Vert.x",
-      "description": "An advanced web platform that comfort your Minecraft server's website needs and supports themes, addons and more features. It has built in Kotlin, Svelte 3 and Vue."
+      "things": "SvelteKit, SASS, Kotlin, MariaDB, Vert.x",
+      "description": "An open-source advanced gaming CMS for Minecraft community server website needs. It supports themes, addons and more features. I built with Kotlin, SvelteKit and previously Vue."
     },
     "antik-kup": {
       "title": "Antik Küp",
       "date": "2015 - 2019",
       "things": "Kotlin, MySQL, SQLite, Vert.x",
-      "description": "A complete Turkish Minecraft MMORPG community server. We have created an unique game in Minecraft for players."
+      "description": "A Minecraft MMORPG game. We have created an unique game in Minecraft for players."
     }
   },
   "certificates": {
@@ -103,5 +124,12 @@
     "mssql-2016": {
       "description": "Oct 2017 | Istanbul Technical University (ITU)"
     }
+  },
+  "hobbies": {
+    "table-tennis": "Table Tennis",
+    "swimming": "Swimming",
+    "cycling": "Cycling",
+    "billiard": "Billiard",
+    "researching": "Research & Development"
   }
 }

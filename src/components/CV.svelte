@@ -1,5 +1,5 @@
 <script>
-  import { _ } from "svelte-i18n";
+  import {_} from "svelte-i18n";
 </script>
 
 <main class="hyphens-manual">
@@ -10,7 +10,7 @@
   >
 
     <!-- Header -->
-    <header class="clearfix mb-8 md:mb-11">
+    <header class="clearfix mb-8 md:mb-11 print:pt-16">
       <div class="float-left flex items-center">
         <div
           class="initials-container mr-5 text-base leading-none text-white
@@ -60,7 +60,7 @@
             </svg>
           </li>
           <li class="flex items-center align-right">
-            <span class="mr-4 flex-1"><a href="https://duruer.dev" target="_blank">duruer.dev</a></span>
+            <span class="mr-4 flex-1"><a href="https://duruer.dev" target="_blank">https://duruer.dev</a></span>
             <svg
               class="h-4 w-4 pb-px stroke-current"
               xmlns="http://www.w3.org/2000/svg"
@@ -120,7 +120,7 @@
       </div>
     </header>
 
-    <hr class="mb-8" />
+    <hr class="mb-8"/>
     <!-- end Name -->
 
     <!-- Column -->
@@ -138,72 +138,16 @@
           </h2>
 
           <section class="mb-4.5 break-inside-avoid">
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              {$_('about-me')}
+            <p class="mt-2.1 text-md text-gray-700 leading-normal text-justify">
+              {@html $_('about-me')}
             </p>
           </section>
 
         </div>
       </section>
 
-      <hr class="mt-8" />
-      <section class="mt-8 first:mt-0">
 
-        <!-- To keep in the same column -->
-        <div class="break-inside-avoid">
-
-          <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
-            {$_('title.education')}
-          </h2>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-                {$_('education.pecs-uni.title')}
-              </h3>
-              <p class="leading-normal text-md text-gray-600">
-                {$_('education.pecs-uni.time')} | {$_('education.pecs-uni.major')}
-              </p>
-            </header>
-          </section>
-
-        </div>
-
-        <section class="mb-4.5 break-inside-avoid">
-          <header>
-            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              {$_('education.preparatory-course.title')}
-            </h3>
-            <p class="leading-normal text-md text-gray-600">
-              {$_('education.preparatory-course.time')} | {$_('education.preparatory-course.major')}
-            </p>
-          </header>
-        </section>
-
-        <section class="mb-4.5 break-inside-avoid">
-          <header>
-            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              {$_('education.kocaeli-bahcesehir-highschool.title')}
-            </h3>
-            <p class="leading-normal text-md text-gray-600">
-              {$_('education.kocaeli-bahcesehir-highschool.time')} | {$_('education.kocaeli-bahcesehir-highschool.major')}
-            </p>
-          </header>
-        </section>
-
-        <section class="mb-4.5 break-inside-avoid">
-          <header>
-            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              {$_('education.edirne-bahcesehir-highschool.title')}
-            </h3>
-            <p class="leading-normal text-md text-gray-600">
-              {$_('education.edirne-bahcesehir-highschool.time')} | {$_('education.edirne-bahcesehir-highschool.major')}
-            </p>
-          </header>
-        </section>
-      </section>
-
-      <hr class="mt-8" />
+      <hr class="mt-8"/>
 
       <section class="mt-8 first:mt-0">
 
@@ -222,10 +166,10 @@
               <p class="leading-normal text-md text-gray-650">
                 {$_('work-experience.iconecwave.date')} | {$_('work-experience.iconecwave.profession')}
               </p>
+              <div class="text-gray-600 leading-loose">
+                {$_('work-experience.iconecwave.technologies')}
+              </div>
             </header>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              {$_('work-experience.iconecwave.description')}
-            </p>
           </section>
 
           <section class="mb-4.5 break-inside-avoid">
@@ -236,10 +180,10 @@
               <p class="leading-normal text-md text-gray-650">
                 {$_('work-experience.kodgemisi.date')} | {$_('work-experience.kodgemisi.profession')}
               </p>
+              <div class="text-gray-600 leading-loose">
+                {$_('work-experience.kodgemisi.technologies')}
+              </div>
             </header>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              {$_('work-experience.kodgemisi.description')}
-            </p>
           </section>
 
           <section class="mb-4.5 break-inside-avoid">
@@ -250,19 +194,15 @@
               <p class="leading-normal text-md text-gray-650">
                 {$_('work-experience.general-mobile.date')} | {$_('work-experience.general-mobile.profession')}
               </p>
+              <div class="text-gray-600 leading-loose">
+                {$_('work-experience.general-mobile.technologies')}
+              </div>
             </header>
-            <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              {$_('work-experience.general-mobile.description')}
-            </p>
           </section>
 
         </div>
       </section>
 
-      <br>
-      <br>
-      <br>
-      <br>
       <br>
 
       <section class="mt-8 first:mt-0">
@@ -280,38 +220,66 @@
               {$_("references.iconecwave.title")}
             </h3>
             <p class="leading-normal text-md text-gray-650">
-              {$_("references.iconecwave.date")} | {$_("references.iconecwave.things")}
+              {$_("references.iconecwave.things")}
             </p>
           </header>
-          <p class="mt-2.1 text-md text-gray-700 leading-normal">
-            {$_("references.iconecwave.description")}
+          <p class="mt-2.1 text-md text-gray-700 leading-normal text-justify">
+            {@html $_("references.iconecwave.description")}
           </p>
         </section>
 
         <section class="mb-4.5 break-inside-avoid">
           <header>
             <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              {$_("references.kodgemisi.title")}
+              {$_("references.iconecwave-dxpathfinder.title")}
             </h3>
             <p class="leading-normal text-md text-gray-650">
-              {$_("references.kodgemisi.date")} | {$_("references.kodgemisi.things")}
+              {$_("references.iconecwave-dxpathfinder.things")}
             </p>
           </header>
-          <p class="mt-2.1 text-md text-gray-700 leading-normal">
-            {$_("references.kodgemisi.description")}
+          <p class="mt-2.1 text-md text-gray-700 leading-normal text-justify">
+            {@html $_("references.iconecwave-dxpathfinder.description")}
           </p>
         </section>
 
         <section class="mb-4.5 break-inside-avoid">
           <header>
             <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              {$_("references.portfolio.title")}
+              {@html $_("references.kodgemisi.title")}
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              {$_("references.kodgemisi.things")}
+            </p>
+          </header>
+          <p class="mt-2.1 text-md text-gray-700 leading-normal text-justify">
+            {@html $_("references.kodgemisi.description")}
+          </p>
+        </section>
+
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              {$_("references.general-mobile.title")}
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              {$_("references.general-mobile.things")}
+            </p>
+          </header>
+          <p class="mt-2.1 text-md text-gray-700 leading-normal text-justify">
+            {@html $_("references.general-mobile.description")}
+          </p>
+        </section>
+
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              {@html $_("references.portfolio.title")}
             </h3>
             <p class="leading-normal text-md text-gray-650">
               {$_("references.portfolio.date")} | {$_("references.portfolio.things")}
             </p>
           </header>
-          <p class="mt-2.1 text-md text-gray-700 leading-normal">
+          <p class="mt-2.1 text-md text-gray-700 leading-normal text-justify">
             {$_("references.portfolio.description")}
           </p>
         </section>
@@ -325,7 +293,7 @@
               {$_("references.routve.date")} | {$_("references.routve.things")}
             </p>
           </header>
-          <p class="mt-2.1 text-md text-gray-700 leading-normal">
+          <p class="mt-2.1 text-md text-gray-700 leading-normal text-justify">
             {$_("references.routve.description")}
           </p>
         </section>
@@ -339,7 +307,7 @@
               {$_("references.pano.date")} | {$_("references.pano.things")}
             </p>
           </header>
-          <p class="mt-2.1 text-md text-gray-700 leading-normal">
+          <p class="mt-2.1 text-md text-gray-700 leading-normal text-justify">
             {$_("references.pano.description")}
           </p>
         </section>
@@ -353,50 +321,36 @@
               {$_("references.antik-kup.date")} | {$_("references.antik-kup.things")}
             </p>
           </header>
-          <p class="mt-2.1 text-md text-gray-700 leading-normal">
+          <p class="mt-2.1 text-md text-gray-700 leading-normal text-justify">
             {$_("references.antik-kup.description")}
           </p>
         </section>
 
+        <hr class="mt-8"/>
+
+        <section class="mt-8 first:mt-0">
+
+          <!-- To keep in the same column -->
+          <div class="break-inside-avoid">
+
+            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
+              {$_('title.education')}
+            </h2>
+
+            <section class="mb-4.5 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+                  {$_('education.pecs-uni.title')}
+                </h3>
+                <p class="leading-normal text-md text-gray-600">
+                  {$_('education.pecs-uni.time')} | {$_('education.pecs-uni.major')}
+                </p>
+              </header>
+            </section>
+
+          </div>
+        </section>
       </section>
-
-      <hr class="mt-8" />
-
-      <section class="mt-8 first:mt-0">
-
-        <!-- To keep in the same column -->
-        <div class="break-inside-avoid">
-
-          <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
-            {$_('title.certificates')}
-          </h2>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-                {$_("certificates.efset.title")}
-              </h3>
-              <p class="leading-normal text-md text-gray-600">
-                {$_("certificates.efset.description")}
-              </p>
-            </header>
-          </section>
-
-        </div>
-
-      </section>
-
-      <section class="mb-4.5 break-inside-avoid">
-        <header>
-          <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-            MSSQL 2016
-          </h3>
-          <p class="leading-normal text-md text-gray-600">
-            {$_("certificates.mssql-2016.description")}
-          </p>
-        </header>
-      </section>
-
     </div>
   </div>
 
@@ -409,11 +363,16 @@
     class="p-6 mx-auto page max-w-a4 md:max-w-a4 h-a4 xsm:p-8 sm:p-9 md:p-16"
   >
 
-<!--    &lt;!&ndash; Column &ndash;&gt;-->
-<!--    <div-->
-<!--      class="md:col-count-2 print:col-count-2 col-gap-md md:h-a4-col-->
-<!--      print:h-a4-col col-fill-auto"-->
-<!--    >-->
+    <!-- Column -->
+    <div
+      class="md:col-count-2 print:col-count-2 col-gap-md md:h-a4-col
+      print:h-a4-col col-fill-auto mt-16"
+    >
+      <!--    &lt;!&ndash; Column &ndash;&gt;-->
+      <!--    <div-->
+      <!--      class="md:col-count-2 print:col-count-2 col-gap-md md:h-a4-col-->
+      <!--      print:h-a4-col col-fill-auto"-->
+      <!--    >-->
 
       <section class="mt-8 first:mt-0">
 
@@ -421,53 +380,127 @@
         <div class="break-inside-avoid">
 
           <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
-            {$_('title.skills')}
+            {$_('title.languages')}
           </h2>
+
+          <section class="mb-4.5">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+                English
+              </h3>
+              <p class="leading-normal text-md text-gray-650">
+                {$_('language.professional')}
+              </p>
+            </header>
+          </section>
+        </div>
+      </section>
+
+      <section class="mt-8 first:mt-0">
+
+        <!-- To keep in the same column -->
+        <div class="break-inside-avoid">
 
           <section class="mb-4.5 break-inside-avoid">
             <header>
               <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-                Kotlin
+                Turkish
               </h3>
               <p class="leading-normal text-md text-gray-650">
-                {$_('skills.high-level')}
+                {$_('language.native')}
               </p>
             </header>
-            <div class="my-3.2 last:pb-1.5">
-              <ul
-                class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6"
-              >
-                <li
-                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+          </section>
+
+          <hr class="mt-8"/>
+
+          <section class="mt-8 first:mt-0">
+
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+
+              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
+                {$_('title.certificates')}
+              </h2>
+
+              <section class="mb-4.5 break-inside-avoid">
+                <header>
+                  <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+                    {$_("certificates.efset.title")}
+                  </h3>
+                  <p class="leading-normal text-md text-gray-600">
+                    {$_("certificates.efset.description")}
+                  </p>
+                </header>
+              </section>
+
+            </div>
+
+          </section>
+
+          <hr class="mt-8"/>
+
+          <section class="mt-8 first:mt-0">
+
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+
+              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
+                {$_('title.skills')}
+              </h2>
+
+              <section class="mb-4.5">
+                <header>
+                  <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+                    Kotlin
+                  </h3>
+                  <p class="leading-normal text-md text-gray-650">
+                    {$_('skills.high-level')}
+                  </p>
+                </header>
+                <div class="my-3.2 last:pb-1.5">
+                  <ul
+                    class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6"
+                  >
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
-                >
-                  Vert.x
-                </li>
-                <li
-                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                    >
+                      Vert.x
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
-                >
-                  OOP
-                </li>
-                <li
-                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                    >
+                      Back-end
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
-                >
-                  Android
-                </li>
-                <li
-                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                    >
+                      OOP
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
-                >
-                  Web
-                </li>
-                <li
-                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                    >
+                      Android
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
-                >
-                  Server
-                </li>
-              </ul>
+                    >
+                      Web
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                    >
+                      Server
+                    </li>
+                  </ul>
+                </div>
+              </section>
             </div>
           </section>
 
@@ -477,7 +510,7 @@
                 Java
               </h3>
               <p class="leading-normal text-md text-gray-650">
-                {$_('skills.middle-level')}
+                {$_('skills.high-level')}
               </p>
             </header>
             <div class="my-3.2 last:pb-1.5">
@@ -530,7 +563,7 @@
                 Javascript
               </h3>
               <p class="leading-normal text-md text-gray-650">
-                {$_('skills.middle-level')}
+                {$_('skills.high-level')}
               </p>
             </header>
             <div class="my-3.2 last:pb-1.5">
@@ -636,7 +669,7 @@
                 Linux
               </h3>
               <p class="leading-normal text-md text-gray-650">
-                {$_('skills.middle-level')}
+                {$_('skills.high-level')}
               </p>
             </header>
             <div class="my-3.2 last:pb-1.5">
@@ -648,6 +681,18 @@
                   bg-gray-200"
                 >
                   Arch Linux
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  Linux Mint
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  Debian
                 </li>
                 <li
                   class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
@@ -675,7 +720,50 @@
 
       </section>
 
-      <hr class="mt-8" />
+      <section class="mt-8 first:mt-0">
+
+        <!-- To keep in the same column -->
+        <div class="break-inside-avoid">
+
+          <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
+            {$_('title.hobbies')}
+          </h2>
+
+        </div>
+
+        <section class="mb-4.5 break-inside-avoid">
+          <div class="my-3.2 last:pb-1.5">
+            <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                {$_("hobbies.table-tennis")}
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                {$_("hobbies.swimming")}
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                {$_("hobbies.cycling")}
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                {$_("hobbies.billiard")}
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                {$_("hobbies.researching")}
+              </li>
+            </ul>
+          </div>
+        </section>
+
+      </section>
 
       <section class="mt-8 first:mt-0">
 
@@ -756,13 +844,39 @@
               >
                 JavaScript Developer
               </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Maven
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Gradle
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                JIRA
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Jenkins
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Googling :)
+              </li>
             </ul>
           </div>
         </section>
 
       </section>
+    </div>
 
-<!--    </div>-->
+    <!--    </div>-->
     <!-- end Column -->
 
   </div>
