@@ -343,7 +343,7 @@
                   {$_('education.pecs-uni.title')}
                 </h3>
                 <p class="leading-normal text-md text-gray-600">
-                  {$_('education.pecs-uni.time')} | {$_('education.pecs-uni.major')}
+                  {$_('education.pecs-uni.major')}
                 </p>
               </header>
             </section>
@@ -802,16 +802,6 @@
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
-                C++
-              </li>
-              <li
-                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-              >
-                PHP
-              </li>
-              <li
-                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
-              >
                 BitBucket
               </li>
               <li
@@ -833,6 +823,16 @@
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
                 CI / CD
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                GitHub Actions
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Travis CI
               </li>
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
@@ -863,6 +863,11 @@
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
                 Jenkins
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Agile Sprint / Kanban
               </li>
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
