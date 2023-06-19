@@ -1,5 +1,5 @@
 {
-  "profession": "Mid Java & Kotlin Software Engineer",
+  "profession": "Software Engineer",
   "country": "Turkey",
   "about-me": "An attentive and passionate Java/Kotlin back-end Software Engineer with 3+ years of professional work experience. I'm mainly focused on developing cloud serverless, highly scalable, containerized back-end applications with Spring, Micronaut, Quarkus and VertX technologies. <br/><br/> Moreover, I have developing experience in cloud with AWS and databases with DynamoDB, MariaDB and MySQL. <br/><br/> During my professional experience, I have contributed to development of websites, Android applications, which are used by millions and in multi-national distributed projects. <br/> <br/> I'm passionate about learning new technologies, helping and sharing my knowledge with my team. Furthermore, I'm developing open-source projects in my free times.",
   "title": {
@@ -47,7 +47,7 @@
     "iconecwave": {
       "title": "iConec Wave (Istanbul/Fully Remote)",
       "date": "Feb 2022 – Present",
-      "profession": " Mid Java Software Engineer",
+      "profession": " Java Software Engineer",
       "technologies": "(Java/Kotlin/Spring/AWS)",
       "description": "I'm developing web services, fixing bugs and improving the existing codebase in AWS for our famous customer Royal Canin company. From factory packaging till the end-user. By using the AWS SDK mainly Java, DynamoDB, S3 and Spring."
     },
@@ -57,6 +57,13 @@
       "profession": " Intern",
       "technologies": "(Kotlin/MicronAut/Hexagonal Architecture)",
       "description": "During my internship, I was improving existing and adding new scenario tests to the project. Besides, I created web services and focused on fixing bugs."
+    },
+    "statu": {
+      "title": "Statu (Turkey/Fully Remote)",
+      "date": "Jan 2020 – Sep 2021",
+      "profession": " Back End Developer",
+      "technologies": "(Kotlin/Vert.X/Docker/ClickHouse)",
+      "description": "During my studies, I had a contract with Statu Inc. Developed enterprise-level back-end software for our customers using Kotlin/Java, VertX, Docker and ClickHouse DB."
     },
     "general-mobile": {
       "title": "General Mobile Inc. (Istanbul/In Office)",
@@ -105,15 +112,9 @@
     },
     "pano": {
       "title": "Pano",
-      "date": "Since 2018",
+      "date": "2018 - 2022",
       "things": "SvelteKit, SASS, Kotlin, MariaDB, Vert.x",
       "description": "An open-source advanced gaming CMS for Minecraft community server website needs. It supports themes, addons and more features. I built with Kotlin, SvelteKit and previously Vue."
-    },
-    "antik-kup": {
-      "title": "Antik Küp",
-      "date": "2015 - 2019",
-      "things": "Kotlin, MySQL, SQLite, Vert.x",
-      "description": "A Minecraft MMORPG game. We have created an unique game in Minecraft for players."
     }
   },
   "certificates": {

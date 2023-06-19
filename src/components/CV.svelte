@@ -189,6 +189,20 @@
           <section class="mb-4.5 break-inside-avoid">
             <header>
               <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+                {$_('work-experience.statu.title')}
+              </h3>
+              <p class="leading-normal text-md text-gray-650">
+                {$_('work-experience.statu.date')} | {$_('work-experience.statu.profession')}
+              </p>
+              <div class="text-gray-600 leading-loose">
+                {$_('work-experience.statu.technologies')}
+              </div>
+            </header>
+          </section>
+
+          <section class="mb-4.5 break-inside-avoid">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
                 {$_('work-experience.general-mobile.title')}
               </h3>
               <p class="leading-normal text-md text-gray-650">
@@ -309,20 +323,6 @@
           </header>
           <p class="mt-2.1 text-md text-gray-700 leading-normal text-justify">
             {$_("references.pano.description")}
-          </p>
-        </section>
-
-        <section class="mb-4.5 break-inside-avoid">
-          <header>
-            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              {$_("references.antik-kup.title")}
-            </h3>
-            <p class="leading-normal text-md text-gray-650">
-              {$_("references.antik-kup.date")} | {$_("references.antik-kup.things")}
-            </p>
-          </header>
-          <p class="mt-2.1 text-md text-gray-700 leading-normal text-justify">
-            {$_("references.antik-kup.description")}
           </p>
         </section>
 
