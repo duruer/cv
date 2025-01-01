@@ -1,15 +1,15 @@
 {
-  "profession": "Software Engineer",
+  "profession": "Full-Stack Software Engineer",
   "country": "Turkey",
-  "about-me": "An attentive and passionate Java/Kotlin back-end Software Engineer with 3+ years of professional work experience. I'm mainly focused on developing cloud serverless, highly scalable, containerized back-end applications with Spring, Micronaut, Quarkus and VertX technologies. <br/><br/> Moreover, I have developing experience in cloud with AWS and databases with DynamoDB, MariaDB and MySQL. <br/><br/> During my professional experience, I have contributed to development of websites, Android applications, which are used by millions and in multi-national distributed projects. <br/> <br/> I'm passionate about learning new technologies, helping and sharing my knowledge with my team. Furthermore, I'm developing open-source projects in my free times.",
+  "about-me": "An attentive, open-minded and passionate Java/Kotlin full-stack Software Engineer with 5+ years of professional work experience. Mainly focused on developing cloud serverless, highly scalable, containerized applications with Spring, Micronaut, Quarkus, SvelteKit and VertX technologies. <br/><br/> Experienced in cloud with AWS and databases with DynamoDB, MariaDB, PostgreSQL and MySQL. Also experienced in front-end with React, Vue and SvelteKit. (not developing CSS) <br/><br/> During the professional experience, contributed to development of back-end and front-end applications, which are used by millions and in multi-national distributed projects. (Previously had experience in developing Android applications) <br/> <br/> I'm passionate about solving real world problems, learning new technologies, eager to collaborate with my team. <br/> </br> As a personal development, I'm developing & contributing open-source projects in my free times.",
   "title": {
     "about-me": "ABOUT ME",
     "education": "EDUCATION",
     "experience": "WORK EXPERIENCES",
     "references": "PROJECTS",
     "certificates": "CERTIFICATES",
-    "skills": "SKILLS",
-    "other": "OTHER",
+    "skills": "SKILLS BY EXPERIENCE",
+    "other": "OTHER EXPERIENCES",
     "hobbies": "HOBBIES",
     "languages": "LANGUAGES"
   },
@@ -18,7 +18,7 @@
     "high-level": "High"
   },
   "language": {
-    "professional": "Professional Proficiency",
+    "professional": "Professional Proficiency (C1)",
     "native": "Native"
   },
   "education": {
@@ -47,8 +47,8 @@
     "iconecwave": {
       "title": "iConec Wave (Istanbul/Fully Remote)",
       "date": "Feb 2022 – Present",
-      "profession": " Java Software Engineer",
-      "technologies": "(Java/Kotlin/Spring/AWS)",
+      "profession": " Full-Stack Software Engineer",
+      "technologies": "(Java/Kotlin/Spring/AWS/React)",
       "description": "I'm developing web services, fixing bugs and improving the existing codebase in AWS for our famous customer Royal Canin company. From factory packaging till the end-user. By using the AWS SDK mainly Java, DynamoDB, S3 and Spring."
     },
     "kodgemisi": {
@@ -61,7 +61,7 @@
     "statu": {
       "title": "Statu (Turkey/Fully Remote)",
       "date": "Jan 2020 – Sep 2021",
-      "profession": " Back End Developer",
+      "profession": " Back-End Developer (contract)",
       "technologies": "(Kotlin/Vert.X/Docker/ClickHouse)",
       "description": "During my studies, I had a contract with Statu Inc. Developed enterprise-level back-end software for our customers using Kotlin/Java, VertX, Docker and ClickHouse DB."
     },
@@ -74,6 +74,18 @@
     }
   },
   "references": {
+    "parsek": {
+      "title": "Parsek >> <a href='https://parsek.dev' target='_blank'>parsek.dev</a>",
+      "date": "Since Dec 2023",
+      "things": "Kotlin, Clickhouse",
+      "description": "An open-source modular back-end written in Kotlin."
+    },
+    "rule": {
+      "title": "Rule AI",
+      "date": "Dec 2023 - Oct 2024",
+      "things": "Coolify, Parsek, Kotlin, Clickhouse, Linear, RabbitMQ, OpenAI",
+      "description": "An AI platform for content generation and enhancement for e-commerce product owners."
+    },
     "iconecwave": {
       "title": "iConec Wave - Royal Canin",
       "date": "Since Feb 2022",
@@ -97,12 +109,6 @@
       "date": "Nov 2017 - Aug 2018",
       "things": "Kotlin, Java, Dagger, Retrofit, Picasso, MVVM, MVP, MVC",
       "description": "I developed Android applications which are still available and are used by millions in Google Play. The applications I contributed to development of new futures and bug fixes were <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gallery&hl=tr&gl=US' target='_blank'>GM Gallery GO</a>, <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.musicplayer&hl=tr&gl=US' target='_blank'>GM Music</a>, GM File Manager, <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gmvoicerecorder&hl=tr&gl=US' target='_blank'>GM Voice Recorder</a> and <a href='https://play.google.com/store/apps/details?id=com.generalmobile.assistant&hl=tr&gl=US' target='_blank'>GM Assistant</a>."
-    },
-    "portfolio": {
-      "title": "Portfolio >> <a href='https://duruer.dev' target='_blank'>https://duruer.dev</a>",
-      "date": "Since 2020",
-      "things": "SvelteKit, Netlify, Bootstrap 4",
-      "description": "My small open-source serverless portfolio website. It was built with SvelteKit, Netlify, Bootstrap 4 and SvelteKit, and supports both Turkish and English languages."
     },
     "routve": {
       "title": "Routve",

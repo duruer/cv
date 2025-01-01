@@ -214,10 +214,33 @@
             </header>
           </section>
 
+
+          <hr class="mt-8"/>
+
+          <section class="mt-8 first:mt-0">
+
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+
+              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
+                {$_('title.education')}
+              </h2>
+
+              <section class="mb-4.5 break-inside-avoid">
+                <header>
+                  <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+                    {$_('education.pecs-uni.title')}
+                  </h3>
+                  <p class="leading-normal text-md text-gray-600">
+                    {$_('education.pecs-uni.major')}
+                  </p>
+                </header>
+              </section>
+
+            </div>
+          </section>
         </div>
       </section>
-
-      <br>
 
       <section class="mt-8 first:mt-0">
 
@@ -227,6 +250,35 @@
             {$_('title.references')}
           </h2>
         </div>
+
+
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              {@html $_("references.parsek.title")} | {$_("references.parsek.date")}
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+               {$_("references.parsek.things")}
+            </p>
+          </header>
+          <p class="mt-2.1 text-md text-gray-700 leading-normal text-justify">
+            {$_("references.parsek.description")}
+          </p>
+        </section>
+
+        <section class="mb-4.5 break-inside-avoid">
+          <header>
+            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              {$_("references.rule.title")} | {$_("references.rule.date")}
+            </h3>
+            <p class="leading-normal text-md text-gray-650">
+              {$_("references.rule.things")}
+            </p>
+          </header>
+          <p class="mt-2.1 text-md text-gray-700 leading-normal text-justify">
+            {@html $_("references.rule.description")}
+          </p>
+        </section>
 
         <section class="mb-4.5 break-inside-avoid">
           <header>
@@ -284,27 +336,13 @@
           </p>
         </section>
 
-        <section class="mb-4.5 break-inside-avoid">
+        <section class="mb-4.5 break-inside-avoid" hidden>
           <header>
             <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              {@html $_("references.portfolio.title")}
+              {$_("references.routve.title")} | {$_("references.routve.date")}
             </h3>
             <p class="leading-normal text-md text-gray-650">
-              {$_("references.portfolio.date")} | {$_("references.portfolio.things")}
-            </p>
-          </header>
-          <p class="mt-2.1 text-md text-gray-700 leading-normal text-justify">
-            {$_("references.portfolio.description")}
-          </p>
-        </section>
-
-        <section class="mb-4.5 break-inside-avoid">
-          <header>
-            <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              {$_("references.routve.title")}
-            </h3>
-            <p class="leading-normal text-md text-gray-650">
-              {$_("references.routve.date")} | {$_("references.routve.things")}
+              {$_("references.routve.things")}
             </p>
           </header>
           <p class="mt-2.1 text-md text-gray-700 leading-normal text-justify">
@@ -315,40 +353,15 @@
         <section class="mb-4.5 break-inside-avoid">
           <header>
             <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-              {$_("references.pano.title")}
+              {$_("references.pano.title")} | {$_("references.pano.date")}
             </h3>
             <p class="leading-normal text-md text-gray-650">
-              {$_("references.pano.date")} | {$_("references.pano.things")}
+              {$_("references.pano.things")}
             </p>
           </header>
           <p class="mt-2.1 text-md text-gray-700 leading-normal text-justify">
             {$_("references.pano.description")}
           </p>
-        </section>
-
-        <hr class="mt-8"/>
-
-        <section class="mt-8 first:mt-0">
-
-          <!-- To keep in the same column -->
-          <div class="break-inside-avoid">
-
-            <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-800">
-              {$_('title.education')}
-            </h2>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-                  {$_('education.pecs-uni.title')}
-                </h3>
-                <p class="leading-normal text-md text-gray-600">
-                  {$_('education.pecs-uni.major')}
-                </p>
-              </header>
-            </section>
-
-          </div>
         </section>
       </section>
     </div>
@@ -426,7 +439,7 @@
               <section class="mb-4.5 break-inside-avoid">
                 <header>
                   <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-                    {$_("certificates.efset.title")}
+                    {$_("certificates.efset.title")} (Old)
                   </h3>
                   <p class="leading-normal text-md text-gray-600">
                     {$_("certificates.efset.description")}
@@ -484,12 +497,6 @@
                       class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
                     >
-                      Android
-                    </li>
-                    <li
-                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
-                  bg-gray-200"
-                    >
                       Web
                     </li>
                     <li
@@ -497,6 +504,18 @@
                   bg-gray-200"
                     >
                       Server
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                    >
+                      RabbitMQ
+                    </li>
+                    <li
+                            class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                    >
+                      Android
                     </li>
                   </ul>
                 </div>
@@ -600,6 +619,12 @@
                 >
                   REST API
                 </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  Axios
+                </li>
               </ul>
             </div>
           </section>
@@ -659,6 +684,12 @@
                 >
                   PostgreSQL
                 </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  NoSQL
+                </li>
               </ul>
             </div>
           </section>
@@ -712,6 +743,18 @@
                 >
                   Docker
                 </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  Automation
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  CI & CD
+                </li>
               </ul>
             </div>
           </section>
@@ -719,6 +762,10 @@
         </div>
 
       </section>
+
+      <br/>
+      <br/>
+      <br/>
 
       <section class="mt-8 first:mt-0">
 
@@ -817,6 +864,11 @@
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
+                Linear
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
                 Slack
               </li>
               <li
@@ -842,6 +894,16 @@
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
+                Front-End
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Full-Stack
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
                 JavaScript Developer
               </li>
               <li
@@ -863,6 +925,16 @@
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
                 Jenkins
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                GitHub Actions
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Coolify
               </li>
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
