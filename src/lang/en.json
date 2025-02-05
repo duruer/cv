@@ -1,7 +1,7 @@
 {
   "profession": "Full-Stack Software Engineer",
   "country": "Turkey",
-  "about-me": "An attentive, open-minded and passionate Java/Kotlin full-stack Software Engineer with 4+ years of professional work experience. Mainly focused on developing cloud serverless, highly scalable, containerized applications with Spring, Micronaut, Quarkus, SvelteKit and VertX technologies. <br/><br/> Experienced in cloud with AWS and databases with DynamoDB, MariaDB, PostgreSQL and MySQL. Also experienced in front-end with React, Vue and SvelteKit. (not developing CSS) <br/><br/> During the professional experience, contributed to development of back-end and front-end applications, which are used by millions and in multi-national distributed projects. (Previously had experience in developing Android applications) <br/> <br/> I'm passionate about solving real world problems, learning new technologies, eager to collaborate with my team. <br/> </br> As a personal development, I'm developing & contributing open-source projects in my free times.",
+  "about-me": "Passionate Java/Kotlin full-stack engineer with 4+ years' experience building scalable, serverless, containerized cloud applications using Spring, Micronaut, Quarkus, SvelteKit, and VertX.<br><br> Experience with databases (DynamoDB, MariaDB, PostgreSQL, MySQL) and front-end frameworks (React, Vue, SvelteKit). I have experience using Katalon and scenario tests in professional projects.<br><br> I enjoy solving real-world problems, learning new technologies, collaborating with teams, and contributing to open source.",
   "title": {
     "about-me": "ABOUT ME",
     "education": "EDUCATION",
@@ -48,29 +48,29 @@
       "title": "iConec Wave (Istanbul/Fully Remote)",
       "date": "Feb 2022 – Present",
       "profession": " Full-Stack Software Engineer",
-      "technologies": "(Java/Kotlin/Spring/AWS/React)",
-      "description": "I'm developing web services, fixing bugs and improving the existing codebase in AWS for our famous customer Royal Canin company. From factory packaging till the end-user. By using the AWS SDK mainly Java, DynamoDB, S3 and Spring."
+      "technologies": "Java | React | TypeScript | Spring | AWS | Katalon",
+      "description": "I develop and maintain AWS-based web services for renowned French client Royal Canin, handling bug fixes and enhancements from factory packaging to end-user delivery."
     },
     "kodgemisi": {
       "title": "Kod Gemisi (Turkey/Fully Remote)",
       "date": "Oct 2021 – Jan 2022",
       "profession": " Intern",
-      "technologies": "(Kotlin/MicronAut/Hexagonal Architecture)",
-      "description": "During my internship, I was improving existing and adding new scenario tests to the project. Besides, I created web services and focused on fixing bugs."
+      "technologies": "Kotlin | MicronAut | Hexagonal Architecture",
+      "description": "During my internship, I enhanced scenario tests, built web services, and fixed bugs."
     },
     "statu": {
       "title": "Statu (Turkey/Fully Remote)",
       "date": "Jan 2020 – Sep 2021",
       "profession": " Back-End Developer (contract)",
-      "technologies": "(Kotlin/Vert.X/Docker/ClickHouse)",
-      "description": "During my studies, I had a contract with Statu Inc. Developed enterprise-level back-end software for our customers using Kotlin/Java, VertX, Docker and ClickHouse DB."
+      "technologies": "Kotlin | Vert.X | Docker | ClickHouse",
+      "description": "During my studies, I contracted with Statu Inc. to develop enterprise back-end software using Kotlin/Java, VertX, Docker, and ClickHouse DB."
     },
     "general-mobile": {
       "title": "General Mobile Inc. (Istanbul/In Office)",
       "date": "Nov 2017 – Aug 2018",
       "profession": " Junior Android Developer",
-      "technologies": "(Kotlin/Java/Android/MVVM/MVC/MVP)",
-      "description": "I created <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gallery&hl=tr&gl=US' target='_blank'>GM Gallery GO</a> Android application. Moreover, I contributed to projects with my 6 other teammates, developing the following applications: <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.musicplayer&hl=tr&gl=US' target='_blank'>GM Music</a>, GM File Manager, <a href='https://play.google.com/store/apps/details?id=com.generalmobile.assistant&hl=tr&gl=US' target='_blank'>GM Assistant</a> and <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gmvoicerecorder&hl=tr&gl=US' target='_blank'>GM Voice Recorder</a> applications which are used by millions and are still available in Google Play."
+      "technologies": "Kotlin | Java | Android | MVVM | MVC | MVP",
+      "description": "During my work experience, I created an Android applications and collaborated with six teammates to develop additional apps now used by millions in 30 countries."
     }
   },
   "references": {

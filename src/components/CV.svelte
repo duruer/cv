@@ -173,56 +173,68 @@
 
           <section class="mb-4.5 break-inside-avoid">
             <header>
-              <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              <h3 class="text-lg font-semibold text-gray-800 leading-snugish">
                 {$_('work-experience.iconecwave.title')}
               </h3>
-              <p class="leading-normal text-md text-gray-650">
+              <p class="leading-normal text-md text-gray-700">
                 {$_('work-experience.iconecwave.date')} | {$_('work-experience.iconecwave.profession')}
               </p>
-              <div class="text-gray-600 leading-loose">
+              <div class="text-gray-650 leading-loose">
                 {$_('work-experience.iconecwave.technologies')}
               </div>
+              <div class="text-gray-600">
+                {@html $_('work-experience.iconecwave.description')}
+              </div>
             </header>
           </section>
 
           <section class="mb-4.5 break-inside-avoid">
             <header>
-              <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              <h3 class="text-lg font-semibold text-gray-800 leading-snugish">
                 {$_('work-experience.kodgemisi.title')}
               </h3>
-              <p class="leading-normal text-md text-gray-650">
+              <p class="leading-normal text-md text-gray-700">
                 {$_('work-experience.kodgemisi.date')} | {$_('work-experience.kodgemisi.profession')}
               </p>
-              <div class="text-gray-600 leading-loose">
+              <div class="text-gray-650 leading-loose">
                 {$_('work-experience.kodgemisi.technologies')}
               </div>
-            </header>
-          </section>
-
-          <section class="mb-4.5 break-inside-avoid">
-            <header>
-              <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
-                {$_('work-experience.statu.title')}
-              </h3>
-              <p class="leading-normal text-md text-gray-650">
-                {$_('work-experience.statu.date')} | {$_('work-experience.statu.profession')}
-              </p>
-              <div class="text-gray-600 leading-loose">
-                {$_('work-experience.statu.technologies')}
+              <div class="text-gray-600">
+                {@html $_('work-experience.kodgemisi.description')}
               </div>
             </header>
           </section>
 
           <section class="mb-4.5 break-inside-avoid">
             <header>
-              <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+              <h3 class="text-lg font-semibold text-gray-800 leading-snugish">
+                {$_('work-experience.statu.title')}
+              </h3>
+              <p class="leading-normal text-md text-gray-700">
+                {$_('work-experience.statu.date')} | {$_('work-experience.statu.profession')}
+              </p>
+              <div class="text-gray-650 leading-loose">
+                {$_('work-experience.statu.technologies')}
+              </div>
+              <div class="text-gray-600">
+                {@html $_('work-experience.statu.description')}
+              </div>
+            </header>
+          </section>
+
+          <section class="mb-4.5 break-inside-avoid">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-800 leading-snugish">
                 {$_('work-experience.general-mobile.title')}
               </h3>
-              <p class="leading-normal text-md text-gray-650">
+              <p class="leading-normal text-md text-gray-700">
                 {$_('work-experience.general-mobile.date')} | {$_('work-experience.general-mobile.profession')}
               </p>
-              <div class="text-gray-600 leading-loose">
+              <div class="text-gray-650 leading-loose">
                 {$_('work-experience.general-mobile.technologies')}
+              </div>
+              <div class="text-gray-600">
+                {@html $_('work-experience.general-mobile.description')}
               </div>
             </header>
           </section>
@@ -772,13 +784,44 @@
             </div>
           </section>
 
+          <section class="mb-4.5 break-inside-avoid">
+            <header>
+              <h3 class="text-lg font-semibold text-gray-650 leading-snugish">
+                Testing
+              </h3>
+              <p class="leading-normal text-md text-gray-650">
+                Moderate
+              </p>
+            </header>
+            <div class="my-3.2 last:pb-1.5">
+              <ul
+                class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6"
+              >
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  Katalon (Regressions)
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  Scenario Test
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  JUnit
+                </li>
+              </ul>
+            </div>
+          </section>
+
         </div>
 
       </section>
-
-      <br/>
-      <br/>
-      <br/>
 
       <section class="mt-8 first:mt-0">
 
@@ -952,7 +995,32 @@
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
-                Agile Sprint / Kanban
+                Agile Sprint / Scrum / Kanban
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Unit Testing
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                TypeScript
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Regression Tests
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Katalon
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                JitPack
               </li>
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
