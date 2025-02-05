@@ -160,7 +160,7 @@
       </section>
 
 
-      <hr class="mt-8"/>
+      <hr class="mt-4"/>
 
       <section class="mt-8 first:mt-0">
 
@@ -392,7 +392,6 @@
     </div>
   </div>
 
-  <br>
   <br>
   <br>
 
