@@ -565,6 +565,12 @@
                   class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
                   bg-gray-200"
                 >
+                  Microservices
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
                   Spring
                 </li>
                 <li
@@ -649,6 +655,12 @@
                   bg-gray-200"
                 >
                   Axios
+                </li>
+                <li
+                  class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750
+                  bg-gray-200"
+                >
+                  TypeScript
                 </li>
               </ul>
             </div>
@@ -1031,6 +1043,11 @@
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
                 Semantic-Releases
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Microservices
               </li>
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
