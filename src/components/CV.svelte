@@ -1025,6 +1025,16 @@
               <li
                 class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
               >
+                Terraform
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
+                Semantic-Releases
+              </li>
+              <li
+                class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 bg-gray-200"
+              >
                 Googling :)
               </li>
             </ul>
