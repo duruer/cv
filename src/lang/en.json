@@ -87,27 +87,27 @@
       "description": "An AI platform for content generation and enhancement for e-commerce product owners."
     },
     "iconecwave": {
-      "title": "iConec Wave - Royal Canin",
+      "title": "iConec Wave - Royal Canin | <a href='https://individualis.com' target='_blank'>individualis.com</a>",
       "date": "Since Feb 2022",
-      "things": "AWS, Spring, Java, Serverless, PostgreSQL, DynamoDB, S3",
-      "description": "Royal Canin is a famous French cat & dog food producer. I'm contributing in development of web services solutions for distribution, veterinary clinic and customer order managements in US, France and Japan countries."
+      "things": "Java | React | AWS Cloud | Spring | TypeScript | JavaScript | Microservices",
+      "description": "Royal Canin is a renowned French pet food manufacturer known for its premium cat and dog nutrition. I design and develop back-end web services while enhancing front-end solutions to streamline distribution, veterinary clinic operations, and customer order management. My work supports these critical systems across the United States, France, and Japan."
     },
     "iconecwave-dxpathfinder": {
       "title": "iConec Wave - DxPathFinder",
-      "date": "Since Feb 2022",
-      "things": "AWS, Java, Serverless, DynamoDB",
+      "date": "Feb 2022 - Jan 2025",
+      "things": "AWS | Java | Serverless | DynamoDB | ORM",
       "description": "DxPathFinder is an online digital performance cockpit. I provide web service solutions for project needs also with helping improving business calculations."
     },
     "kodgemisi": {
       "title": "Kod Gemisi - Grispi >> <a href='https://grispi.com/' target='_blank'>https://grispi.com</a>",
       "date": "Oct 2021 - Jan 2022",
-      "things": "Kotlin, Java, Micronaut, Hibernate, Docker, PostgreSQL, Hexagonal Architecture",
+      "things": "Kotlin | Java | Micronaut | Hibernate | Docker | PostgreSQL | Hexagonal Architecture",
       "description": "Grispi is a CRM application like Zendesk. I improved and added new scenario tests, optimized code base, and developed web services for groups and tickets in application."
     },
     "general-mobile": {
       "title": "General Mobile - Android Applications",
       "date": "Nov 2017 - Aug 2018",
-      "things": "Kotlin, Java, Dagger, Retrofit, Picasso, MVVM, MVP, MVC",
+      "things": "Kotlin | Java | Dagger | Retrofit | Picasso | MVVM | MVP | MVC",
       "description": "I developed Android applications which are still available and are used by millions in Google Play. The applications I contributed to development of new futures and bug fixes were <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gallery&hl=tr&gl=US' target='_blank'>GM Gallery GO</a>, <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.musicplayer&hl=tr&gl=US' target='_blank'>GM Music</a>, GM File Manager, <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gmvoicerecorder&hl=tr&gl=US' target='_blank'>GM Voice Recorder</a> and <a href='https://play.google.com/store/apps/details?id=com.generalmobile.assistant&hl=tr&gl=US' target='_blank'>GM Assistant</a>."
     },
     "routve": {
