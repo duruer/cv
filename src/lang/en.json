@@ -77,13 +77,13 @@
     "parsek": {
       "title": "Parsek >> <a href='https://parsek.dev' target='_blank'>parsek.dev</a>",
       "date": "Since Dec 2023",
-      "things": "Kotlin, Clickhouse",
+      "things": "Kotlin | Clickhouse",
       "description": "An open-source modular back-end written in Kotlin."
     },
     "rule": {
       "title": "Rule AI",
       "date": "Dec 2023 - Oct 2024",
-      "things": "Coolify, Parsek, Kotlin, Clickhouse, Linear, RabbitMQ, OpenAI",
+      "things": "Coolify | Parsek | Kotlin | Clickhouse | Linear | RabbitMQ | OpenAI",
       "description": "An AI platform for content generation and enhancement for e-commerce product owners."
     },
     "iconecwave": {
@@ -119,7 +119,7 @@
     "pano": {
       "title": "Pano",
       "date": "2018 - 2022",
-      "things": "SvelteKit, SASS, Kotlin, MariaDB, Vert.x",
+      "things": "SvelteKit | SASS | Kotlin | MariaDB | Vert.x",
       "description": "An open-source advanced gaming CMS for Minecraft community server website needs. It supports themes, addons and more features. I built with Kotlin, SvelteKit and previously Vue."
     }
   },
